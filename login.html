@@ -5,14 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        #main-header {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            color: #0c0404;
+            background-color: #72ac16;
+        }
+        .Email {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0c0404;
+        }
+        .Name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0c0404;
+        }
+        .Password {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0c0404;
+        }
+
+    </style>
 </head>
 <body>
     <h1>Login</h1>
     <br>
-    <b>Name:</b> <input type="text" id="name">
+    <div id="main-header">Login Page</div>
     <br>
-    <b>Password:</b> <input type="password" id="password">
+    <b class="Email">Email:</b> <input type="email" id="email">
     <br>
-    <input type="submit" value="Login">
+    <b class="Name">Name:</b> <input type="text" id="name">
+    <br>
+    <b class="Password">Password:</b> <input type="password" id="password">
+    <br>
+    <button type="submit" value="Login">Login</button>
 </body>
 </html>

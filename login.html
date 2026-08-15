@@ -3,20 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(139, 204, 226);
+        }
+        #box {
+            margin: 150px auto;
+            width: 500px;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+            box-shadow: 5px 5px 10px gray;
+            border-radius: 15px;
+        }
+        #main-header {
+            text-align: center;
+            font-family: "Gill Sans Extrabold", sans-serif;
+            font-size: 30px;
+            margin: auto;
+            
+        }
+        .required {
+            font-size: 14px;
+            font-family: monospace;
+            color: black;
+            text-align: center;
+            margin: auto;
+        }
+        .details {
+            padding: 10px;
+            margin: auto;
+            background-color: rgb(214, 205, 205);
+            text-align: center;
+            margin: auto;
+            border: none;
+        }
+        .v1 {
+           text-align: center;
+           padding: 5px;
+           margin: auto;
+           text-align: center;
+           border: smooth;
+        }
+        .v2 {
+            text-align: center;
+            padding: 1px;
+            margin: auto;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Login</h1>
+<div id="box">
+    <h1 id="main-header">Login</h1>
     <br>
-    <div id="main-header">Login Page</div>
+    <b class="required">Email</b>
     <br>
-    <b class="Email">Email:</b> <input type="email" id="email">
+    <input type="text" class="details">
     <br>
-    <b class="Name">Name:</b> <input type="text" id="name">
+    <b class="required">Password</b>
     <br>
-    <b class="Password">Password:</b> <input type="password" id="password">
+    <input type="text" class="details">
     <br>
-    <button type="submit" value="Login">Login</button>
+    <button type="submit" value="signin" class="v1">Login</button>
+    <br>
+    <button type="click" value="Login" class="v2"><u>Don't have an account?</u></button>
+</div>
 </body>
-</html>

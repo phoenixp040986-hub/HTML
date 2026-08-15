@@ -1,0 +1,30 @@
+#main-header {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            color: #0c0404;
+            background-color: green;
+        }
+        #name {
+            background-color: green;
+            padding: 10px;
+            margin: 50em;
+        }
+        .Email {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0c0404;
+            background-color: #b3ee54;
+        }
+        .Name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0c0404;
+            background-color: #b3ee54;
+        }
+        .Password {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0c0404;
+            background-color: #b3ee54;
+        }

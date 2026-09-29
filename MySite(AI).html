@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    /* Navigation */
+    nav {
+        background-color: #263b57;
+        padding: 20px;
+    }
+    nav h1 {
+        display: inline;
+        color: white;
+    }
+    .nav-links {
+        display: inline;
+    }
+    .nav-links a {
+        display: inline-blick;
+        margin-left: 25px;
+        color: white ;
+        text-decoration: none;
+    }
+    /* Hero */
+    .hero {
+        padding: 70px;
+        background-color: #e8f0ff;
+    }
+    .hero h2 {
+        font-size: 40px;
+    }
+    .hero button {
+        display: inline-block;
+        padding: 12px 25px;
+    }
+    /* Features */
+    .features {
+        display: flex;
+        gap: 20px;
+        padding: 30px;
+    }
+    .card {
+        padding: 30px;
+        background-color: #eeeeee;
+        width: 30%;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <h1>My Site</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to MySite</h2>
+        <p>A simpl page for experimenting with CSS</p>
+        <button>Learn More</button>
+    </section>
+    <section>
+        <h2>Our Features</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Build websites.</p>
+            </div>
+            <div class="card">
+                <h3>Programming</h3>
+                <p>Learn coding.</p>
+            </div>
+            <div class="card">
+                <h3>Cloud</h3>
+                <p>Explore cloud technology.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

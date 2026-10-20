@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 <style>
-    /* .Feedback {
+    .Feedback {
         margin-left: 4px;
         margin-top: 8px;
         border: smooth;
         padding: 80px 50px;
-        width: 1212px;
+        width: 1230px;
         background: rgb(236, 234, 234);
         font-size: 15px;
-    } */
+    }
     .Address {
         margin-left: 4px;
         margin-top: 4px;
         margin-bottom: 4px;
         border: smooth;
         padding: 80px 50px;
-        width: 1212px;
+        width: 1230px;
         background: #f1f1f1;
         font-size: 15px;
     }
@@ -32,15 +32,15 @@
         margin-left: 120px;
     }
     .detail {
-        width: 1212px;
+        width: 1230px;
         padding: 10px;
         margin: 5px auto;
     }
     .big {
-        display: block;
+        display: inline-block;
     }
     .small {
-        display: flex;
+        display: inline-block;
     }
 </style>
 </head>
@@ -66,7 +66,7 @@
     </div>
     <br>
     <textarea  type="text" placeholder="Thank You!" cols="5" rows="5" class="Feedback"></textarea>
-    <p style="font-size: 15px; margin-top: 4px;">Leave a comment or good wishes</p>
+    <p style="font-size: 15px; margin-left: 4px; margin-top: 4px;">Leave a comment or good wishes</p>
     <h2 style="margin-bottom: 4px; ">From:</h2>
     <input placeholder="Jane Parker" type="text" class="detail">
     <p style="font-size: 15px; margin-top: 4px;">Full Name</p>
@@ -82,5 +82,5 @@
         Recipient Email
     </p>
     <br>
-    <input placeholder="1012 Glenn Street, Crofton, Kentucky, 42217" class="Address">
+    <textarea type="text" placeholder="1012 Glenn Street, Crofton, Kentucky, 42217" cols="5" rows="5" class="Address"></textarea>
 </body>
